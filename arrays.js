@@ -45,3 +45,5 @@ function removeElementFromEndOfArray(array) {
   return newArray = array.slice(0, array.length - 1)
 }
 
+var items = [1,2,3,4,5]
+list = [...items.slice(0,2), ...items.slice(3)]
